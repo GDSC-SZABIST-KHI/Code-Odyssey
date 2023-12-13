@@ -39,14 +39,14 @@ int main() {
     printf("Your first name is %s\n", fullName);
     
     // fgets & puts
-    char fullName[40];
+    char fullName2[40];
     printf("Enter full name : ");
-    fgets(fullName, 40, stdin);
-    puts(fullName);
+    fgets(fullName2, 40, stdin);
+    puts(fullName2);
     
     //Library Functions
-    char name[] = "Ali";
-    int length = strlen(name);
+    char name1[] = "Ali";
+    int length = strlen(name1);
     printf("The length of name : %d\n", length);
     
     char oldVal[] = "oldValue";
