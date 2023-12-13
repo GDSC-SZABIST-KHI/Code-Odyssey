@@ -18,10 +18,10 @@ int main() {
     */
 
     // valid declaration
-    int age1, age2, age3;
-    age1 = age2 = age3 = 22;
+    int a, b, c;
+    a = b = c = 22;
 
-    
+
     //invalid
     //int a1 = a2 = a3 = 22;
 
